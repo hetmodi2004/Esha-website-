@@ -1,0 +1,32 @@
+<?xml version ='1.0'
+	encoding="utf-8"?>
+	<product>
+		<products>
+			<p_no>1</p_no>
+			<p_name>ice-cream cups</p_name>
+			<p_price>50.00</p_price>
+			<p_date>01-feb-2024</p_date>
+			<p_ex_date>31-jan-2025</p_ex_date>
+		</products>
+		<products>
+			<p_no>2</p_no>
+			<p_name>cones</p_name>
+			<p_price>70.00</p_price>
+			<p_date>12-feb-2024</p_date>
+			<p_ex_date>11-jan-2025</p_ex_date>
+		</products>
+		<products>
+			<p_no>3</p_no>
+			<p_name>softie</p_name>
+			<p_price>40.00</p_price>
+			<p_date>20-feb-2024</p_date>
+			<p_ex_date>19-jan-2025</p_ex_date>
+		</products>
+		<products>
+			<p_no>4</p_no>
+			<p_name>chocolate candy</p_name>
+			<p_price>05.00</p_price>
+			<p_date>6-feb-2024</p_date>
+			<p_ex_date>5-jan-2025</p_ex_date>
+		</products>
+	</product>

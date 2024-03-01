@@ -1,0 +1,117 @@
+<html>
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Ice Cream Parlor</title>
+ <style>
+ body {
+ font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+ header {
+ background-image: url("cones.png");
+ background-size: cover;
+ height: 100vh;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ color: rgb(11, 84, 87);
+ }
+
+ nav {
+ position: sticky;
+ top: 0;
+ background-color: rgba(255, 255, 255, 0.7);
+ padding: 20px;
+ display: flex;
+ justify-content: space-around;
+ }
+
+ nav a {
+ text-decoration: none;
+ color: #333;
+ }
+
+ main {
+ padding: 20px;
+ }
+
+ .flavors {
+ display: flex;
+ flex-wrap: wrap;
+ }
+
+ .flavor-img {
+ width: 30%;
+ margin-bottom: 20px;
+ transition: transform .5s ease;
+ }
+
+ .flavor-img:hover {
+ transform: translateY(-10px);
+ }
+
+ footer {
+ background-color: #333;
+ color: white;
+ padding: 10px;
+ text-align: center;
+ }
+
+ input[required] {
+ border: 1px solid rgb(215, 11, 11);
+ }
+
+ input:valid {
+ border: 1px solid rgb(9, 80, 9);
+ }
+ </style>
+</head>
+<body>
+    <nav>
+        <a href="#flavors">Flavors</a><br>
+        <a href="#contactus">contact us</a>
+        </nav>
+    
+ <header>
+ <h1>Welcome to our Arun Ice Cream Parlor!!
+ </h1>
+    
+ </header>
+
+ 
+  
+ <main>
+ <section id="flavors">
+ <h2>Our Flavors</h2>
+ <div class="flavors">
+ <img src="icecream.jfif" alt="Flavor 1" class="flavor-img">
+ <img src="sandwich-banner.jpg" alt="Flavor 2" class="flavor-img">
+ <img src="ice cream.jfif" alt="Flavor 3" class="flavor-img">
+ </div>
+ </section>
+<h2>
+<center><b>
+    <section id="contact us">
+     <h2> contact us </h2>
+ <form action="/submit_form" method="post">
+ <label for="name">Name:</label>
+ <input type="text" id="name" name="name" required>
+ <br>
+ <label for="email">Email:</label>
+ <input type="email" id="email" name="email" required>
+ <br>
+ <label for="message">Message:</label>
+ <textarea id="message" name="message" required></textarea>
+ <br>
+ <button type="submit">Send</button>
+ 
+ </form>
+</h2>
+</b>
+ </section>
+ </main>
+ </body>
+</center>
+</body>
+</html> 
